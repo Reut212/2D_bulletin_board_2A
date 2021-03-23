@@ -11,6 +11,7 @@ using std::string;
 ariel::Board board;
 unsigned int length;
 
+//generate randome number in a specific range
 unsigned int getNumber(unsigned int sRange, unsigned int eRange){
     return sRange + (((unsigned int) rand()) % (eRange - sRange) + 1);
 }
